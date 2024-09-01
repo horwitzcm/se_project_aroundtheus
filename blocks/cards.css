@@ -1,0 +1,33 @@
+.cards{
+font-weight: 900;
+font-size: 24px;
+line-height: 29.05px;
+}
+
+.cards__list{
+display: grid;
+list-style: none;
+
+}
+
+.card__image{
+width: 282px;
+height: 282;
+}
+
+.card__description {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 20px;
+  
+}
+
+.card__like-button{
+    background: transparent url(../images/Around\ the\ US/likebutton.svg) center no-repeat;
+    width: 21px;
+    height: 18px;
+}
