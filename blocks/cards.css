@@ -1,33 +1,59 @@
 .cards{
+ font: Inter;
 font-weight: 900;
 font-size: 24px;
 line-height: 29.05px;
+margin-top: 30px;
+}
+
+.page__section{
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .cards__list{
 display: grid;
-list-style: none;
+justify-content: center;
+grid-template-columns: repeat(auto-fit, 282px);
+grid-gap: 20px 17px;
+padding: 0;
+margin: 0;
+}
 
+.card{
+display: flex;
+flex-direction: column;
+list-style: none;
 }
 
 .card__image{
 width: 282px;
-height: 282;
+height: 282px;
+border-radius: 10px;
 }
 
 .card__description {
     display: flex;
+    align-items: center;
     background-color: white;
     color: black;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15px;
     padding-right: 20px;
-  
+    justify-content: space-between;
+    border-radius: 10px;
 }
 
 .card__like-button{
     background: transparent url(../images/Around\ the\ US/likebutton.svg) center no-repeat;
     width: 21px;
     height: 18px;
+    border: none;
+    
+}
+
+.card__like-button:hover{
+    opacity: .60;
 }
