@@ -1,22 +1,22 @@
-.cards{
- font: Inter;
-font-weight: 900;
-font-size: 24px;
-line-height: 29.05px;
-margin-top: 30px;
+.cards {
+  font: Inter;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29.05px;
+  margin-top: 30px;
 }
 
-.page__section{
-    max-width: 880px;
-    width: 100%;
-    margin: 0 auto;
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.cards__list{
-display: grid;
-justify-content: center;
-grid-template-columns: repeat(auto-fit, 282px);
-grid-gap: 20px 17px;
-padding: 0;
-margin: 0;
+.cards__list {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
+  grid-gap: 20px 17px;
+  padding: 0;
+  margin: 0;
 }
