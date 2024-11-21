@@ -6,12 +6,6 @@
   margin-top: 30px;
 }
 
-.page__section {
-  max-width: 880px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 .cards__list {
   display: grid;
   justify-content: center;

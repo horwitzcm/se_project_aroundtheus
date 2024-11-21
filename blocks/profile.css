@@ -28,6 +28,8 @@
   font-weight: 500;
   grid-area: title;
   margin: 0;
+  white-space: nowrap;
+
 }
 
 .profile__edit-button {
@@ -95,6 +97,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    max-width: 373px;
   }
   .profile__add-button {
     margin: 0;
