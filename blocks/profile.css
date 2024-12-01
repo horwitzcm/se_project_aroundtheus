@@ -66,19 +66,20 @@
   grid-area: description;
 }
 
+@media screen and (max-width: 1100px) {
+  .page_section {
+    margin: 0 20px;
+    max-width: calc(100% - 40px);
+  }
+}
+
 @media screen and (max-width: 480px) {
   .profile {
     flex-direction: column;
     justify-content: center;
   }
 
-  @media screen and (max-width: 1100px) {
-    .page_section {
-      margin: 0 20px;
-      max-width: calc(100% - 40px);
-    }
-  }
-
+ 
   .profile__info {
     display: flex;
     flex-wrap: wrap;
